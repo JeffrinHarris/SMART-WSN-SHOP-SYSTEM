@@ -1,0 +1,30 @@
+<!-- HTML code to print hello world -->
+<html>
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<title>Hello World</title>
+</head>
+<body>
+    <!-- <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+    </div> -->
+    <div class="cardzz"><h1>LOCAL SHOP INVENTORY</h1></div>
+    <a href="/add_data">ADD</a>
+    <!-- <div class="cards"> -->
+        {% for data in profiles %}
+            <div class="card">
+                <h1>RASPBERRY PI ID: {{data.id - 1}}</h1>
+                <div class="cardz"><div class="cardzz">ULTRASONIC SENSOR: </div>{{data.sensor1}}</div> 
+                <div class="cardz"><div class="cardzz">FORCE SENSOR: </div>{{data.sensor2}}</div> 
+                <p style="margin-left: 10px">
+                <a href="/delete/{{data.id}}" type="button"><img margin = "10px" width = "3%" height = "3%" src = "https://i.imgur.com/gP01DPL.png"></a> 
+                <a href="/update/{{data.id}}" type="button"><img margin = "10px" width = "3%" height = "3%" src = "https://i.imgur.com/m68pb1y.png"></a> 
+                </p>  
+            </div>
+        {% endfor%}
+    <!-- </div> -->
+</body>
+</html>
