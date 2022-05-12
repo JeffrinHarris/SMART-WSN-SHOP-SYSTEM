@@ -1,7 +1,5 @@
 # SMART-WSN-SHOP-SYSTEM
 
-This includes only the Server side of the project. All Raspberry Pi clients along with their sensors must forward data to the server through sockets.
-
 ## View the live demonstration [here](https://www.youtube.com/watch?v=4CKNjNz8Jl8)
 
 ## Installation
@@ -18,6 +16,8 @@ pip install sqlalchemy
 ```
 
 These are all required dependencies.
+
+This includes only the Server side of the project. All Raspberry Pi clients along with their sensors must forward data to the server through sockets.
 
 ## Basic System Design
 ### A Raspberry Pi Client along with their sensors
