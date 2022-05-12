@@ -18,7 +18,15 @@ pip install sqlalchemy
 These are all required dependencies.
 
 ## Basic System Design
+### A Raspberry Pi Client along with their sensors
 
-<!-- print an image from github repo -->
 ![Alt text](https://github.com/JeffrinHarris/SMART-WSN-SHOP-SYSTEM/blob/master/images/img1.JPG)
+
+### Project Architecture
+
+![Alt text](https://github.com/JeffrinHarris/SMART-WSN-SHOP-SYSTEM/blob/master/images/img3.png)
+
+### Working and calculation of stock using ultrasonic sensor
+
+![Alt text](https://github.com/JeffrinHarris/SMART-WSN-SHOP-SYSTEM/blob/master/images/img2.JPG)
 
