@@ -19,3 +19,6 @@ These are all required dependencies.
 
 ## Basic System Design
 
+<!-- print an image from github repo -->
+![Alt text](https://github.com/JeffrinHarris/SMART-WSN-SHOP-SYSTEM/blob/master/images/img1.JPG)
+
